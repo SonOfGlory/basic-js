@@ -1,5 +1,5 @@
 module.exports = function transform(arr) {
-if (!Array.isArray(arr)) throw new Error('arr is not a valid Array')
+if (!Array.isArray(arr)) throw new Error('array is not a valid Array')
 
 return arr.map((item, i) => {
     if (['--discard-next', '--discard-prev', '--double-next','--double-prev']
